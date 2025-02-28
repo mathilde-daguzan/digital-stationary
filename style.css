@@ -59,20 +59,20 @@ a {
 }
 
 .logo {
-    position: fixed; /* Fix the position */
-    top: 20px; /* Distance from the top */
-    right: 20px; /* Distance from the right */
-    z-index: 1000; /* Ensure it stays above other content */
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; 
 }
 
 .logo img {
-    width: 100px; /* Adjust the size of your logo */
-    height: auto; /* Maintain aspect ratio */
+    width: 100px; 
+    height: auto; 
 }
 
 .btn-blue {
     display: inline-block;
-    background-color: #001f3f; /* Dark blue */
+    background-color: #001f3f;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
