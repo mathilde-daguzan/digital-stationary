@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+
+@import url("container.css");
+@import url("avatar.css");
+@import url("button.css");
+@import url("banner.css");
+
+
+body{
+  font-family: 'Poppins', serif;
+  font-size:15px;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+h1, h2, h3{
+  font-family:'Roboto', sans-serif;
+  font-weight:bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 30px 50px rgba(0,0,0,0.1);
+  justify-content: space-between;
+  padding: 20px;
+  flex-direction: column;
+  height:;
+}
+
+.product img {
+  width: 150px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.product h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap:20px;
+  padding: 40px 20px;
+}
+
+.product{
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.logo {
+    position: fixed; /* Fix the position */
+    top: 20px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.logo img {
+    width: 100px; /* Adjust the size of your logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.btn-blue {
+    display: inline-block;
+    background-color: #001f3f; /* Dark blue */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-blue:hover {
+    background-color: #003366; /* Slightly lighter blue */
+}
+
+
+
